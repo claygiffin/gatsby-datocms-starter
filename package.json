@@ -1,0 +1,70 @@
+{
+  "name": "gatsby-datocms-starter",
+  "private": true,
+  "description": "A Gatsby starter project using DatoCMS, Emotion, and typescript.",
+  "version": "0.1.0",
+  "author": "Clay Giffin <clay@claygiffin.com>",
+  "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "datocms-structured-text-utils": "^2.0.4",
+    "emotion-normalize": "^11.0.1",
+    "gatsby": "^4.14.0",
+    "gatsby-plugin-emotion": "^7.14.0",
+    "gatsby-plugin-image": "^2.14.1",
+    "gatsby-plugin-manifest": "^4.14.0",
+    "gatsby-plugin-react-helmet": "^5.14.0",
+    "gatsby-plugin-sharp": "^4.14.1",
+    "gatsby-source-datocms": "^4.0.1",
+    "gatsby-source-filesystem": "^4.14.0",
+    "gatsby-transformer-remark": "^5.14.0",
+    "gatsby-transformer-sharp": "^4.14.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.1.0",
+    "react-datocms": "^3.0.12",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.4",
+    "@types/react-helmet": "^6.1.5",
+    "@typescript-eslint/eslint-plugin": "^5.23.0",
+    "@typescript-eslint/parser": "^5.23.0",
+    "eslint": "^8.15.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "gatsby-plugin-eslint": "^4.0.2",
+    "import-sort-style-module": "^6.0.0",
+    "prettier": "^2.6.2",
+    "prettier-plugin-import-sort": "^0.0.7",
+    "typescript": "^4.6.4"
+  },
+  "importSort": {
+    ".js, .jsx, .ts, .tsx": {
+      "style": "module"
+    }
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "devl": "gatsby develop -H 0.0.0.0 -p 8000",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/claygiffin/roar"
+  },
+  "bugs": {
+    "url": "https://github.com/claygiffin/roar/issues"
+  }
+}
